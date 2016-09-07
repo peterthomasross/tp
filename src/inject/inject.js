@@ -18,7 +18,7 @@ chrome.extension.sendMessage({}, function(response) {
 			issueTitle.parentNode.replaceChild(a, issueTitle)
 		}
 	}
-}, 100);
+}, 1000);
 });
 
 // (id:)([^\s]+)
